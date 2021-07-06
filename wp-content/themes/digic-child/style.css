@@ -10,6 +10,22 @@ Text Domain: digic-child
 */
 /*************** ADD YOUR CUSTOM CSS HERE  ***************/
 
-#bwp-topbar, .bwp-header .content-mostsearch {
-    display: none;
+#footer-socials .social-link {
+    margin: auto;
+    text-align: center;
+}
+.bwp-header .wpbingoLogo img {
+    max-height: 30px !important;
+}
+.bwp-header .header-top .header-page-link, .bwp-header .header-top .wpbingoLogo {
+    margin-top: -15px !important;
+}
+
+@media only screen and (max-width: 991px){
+	#footer-socials .social-link {
+		text-align: left !important;
+	}
+	#acerca-honor-footer .elementor-widget-wrap{
+		padding-left: 15px !important;
+	}
 }
