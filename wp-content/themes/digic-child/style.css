@@ -1,0 +1,15 @@
+/*
+Theme Name: Digic Child
+Theme URI: http://www.wpbingosite.com/digic
+Author: wpbingo
+Description: This is a child theme for Digic
+Version: 1.0
+Author URI: http://wpbingosite.com
+Template: digic
+Text Domain: digic-child
+*/
+/*************** ADD YOUR CUSTOM CSS HERE  ***************/
+
+#bwp-topbar, .bwp-header .content-mostsearch {
+    display: none;
+}

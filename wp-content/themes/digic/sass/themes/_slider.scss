@@ -1,0 +1,66 @@
+/* Revolution Slider ---------------------------------------------------------*/
+.elementor-widget-slider_revolution{
+	.slider-1{
+		.tp-bullets.bullet-1{
+			left: 33% !important;
+		}
+	}
+	.slider-2{
+		@media (min-width:$screen-sm-max){
+			.tp-bullets.bullet-2{
+				left: 33% !important;
+			}
+		}
+	}
+	.slider-3,.slider-8{
+		@include border-radius(6px);
+	}
+	.slider-8{
+		@include border-radius(10px);
+	}
+	.slider-9{
+		@include border-radius(10px);
+	}
+}
+.btn-slider{
+	&:after{
+		content:"\e90b";
+		font-family:icomoon;
+		display:inline-block;
+		@include square(20px);
+		background:$white;
+		@include border-radius(50%);
+		color:$gray-dark;
+		line-height:20px;
+		text-align:center;
+		font-size:7px;
+		position:relative;
+		@include rtl-margin-left(3px);
+		@include rtl-right(-2px);
+		top:-1px;
+		@include transition(all 0.2s ease);
+	}
+	font-size:12px !important;
+	line-height:34px !important;
+}
+.btn-slider2{
+	&:after{
+		content:"\e90b";
+		font-family:icomoon;
+		display:inline-block;
+		@include square(20px);
+		background:$theme-color;
+		@include border-radius(50%);
+		color:$white;
+		line-height:20px;
+		text-align:center;
+		font-size:7px;
+		position:relative;
+		@include rtl-margin-left(3px);
+		@include rtl-right(-2px);
+		top:-1px;
+		@include transition(all 0.2s ease);
+	}
+	font-size:12px !important;
+	line-height:35px !important;
+}
