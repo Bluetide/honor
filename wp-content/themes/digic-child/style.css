@@ -10,16 +10,93 @@ Text Domain: digic-child
 */
 /*************** ADD YOUR CUSTOM CSS HERE  ***************/
 
+/*Branding Book Fonts*/
+
+h1, h2, h3, h4, h5, h6, a, span, p {
+	font-family: Avenir Next W1G !important;
+}
+::selection {
+  background: #00b1ff;
+}
+
+/*Header*/
+
+.bwp-header .wpbingoLogo img {
+    max-height: 30px !important;
+}
+.bwp-header .header-top .header-page-link, 
+.bwp-header .header-top .wpbingoLogo {
+    margin-top: -15px !important;
+}
+.bwp-navigation ul>li.level-0 {
+    padding: 0 0px 0px 50px !important;
+}
+.bwp-navigation ul>li.level-0.menu-item-has-children>a:after {
+    margin-left: 10px !important;
+}
+.bwp-navigation ul>li.level-0.menu-item-has-children>a>span {
+    font-weight: 700;
+    text-transform: none !important;
+    font-size: 15px;
+}
+.bwp-header .header-page-link .wishlist-box .count-wishlist {
+    top: -1px !important;
+}
+.bwp-header .header-page-link .wishlist-box .count-wishlist, 
+.bwp-header .header-page-link .mini-cart .cart-count,
+ul.slick-dots li.slick-active button{
+    background: #00b1ff !important;
+}
+.bwp-header.header-v5 .categories-vertical-menu .widget-title i:after, 
+.bwp-header.header-v5 .categories-vertical-menu .widget-title i:before,
+.bwp-header.header-v5 .categories-vertical-menu .widget-title i{
+    background: #00b1ff !important;
+}
+
+/*Body*/
+/*Home*/
+.title-block-1 h2:after {
+    content: "" !important;
+}
+.elementor-icon-box-content .elementor-icon-box-title,
+.home .elementor-widget-heading .elementor-heading-title {
+    color: #000 !important;
+}
+
+/*Footer*/
+
 #footer-socials .social-link {
     margin: auto;
     text-align: center;
 }
-.bwp-header .wpbingoLogo img {
-    max-height: 30px !important;
+.elementor-element-78bbf35 {
+    text-align: center;
 }
-.bwp-header .header-top .header-page-link, .bwp-header .header-top .wpbingoLogo {
-    margin-top: -15px !important;
+.elementor-widget-icon-list .elementor-icon-list-icon i {
+    color: #000 !important;
 }
+#bwp-footer a:active span, 
+#bwp-footer a:focus span, 
+#bwp-footer a:hover span {
+    color: #00b1ff !important;
+}
+#bwp-footer ul.social-link li a:hover {
+    background: #00b1ff !important;
+    border-color: #00b1ff !important;
+}
+#bwp-footer h2 {
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Avenir Next W1G';
+    color: #000;
+}
+.back-top:hover {
+    background: #00b1ff !important;
+    color: #000 !important;
+    border-color: #00b1ff !important;
+}
+
+/*Responsive*/
 
 @media only screen and (max-width: 991px){
 	#footer-socials .social-link {
