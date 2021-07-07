@@ -128,11 +128,16 @@ ul.slick-dots li.slick-active button{
 .page-title.bwp-title {
     background-color: #000;
 }
-#breadcrumb a{
+#breadcrumb a, .breadcrumb a{
 	color: #fff;
 }
 .bwp-main .page-title h1 {
     color: #fff;
+}
+.bwp-main .page-title.empty-image {
+    background: #000 !important;
+    border-bottom: 1px solid #000 !important;
+    border-top: 1px solid #000 !important;
 }
 
 /*Home*/
