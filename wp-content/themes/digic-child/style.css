@@ -12,7 +12,7 @@ Text Domain: digic-child
 
 /*Branding Book Fonts*/
 
-h1, h2, h3, h4, h5, h6, a, span, p {
+h1, h2, h3, h4, h5, h6, a, span, p, div {
 	font-family: Avenir Next W1G !important;
 }
 .mini-cart .cart-popup .quantity, .title-total, .free-order {
@@ -116,6 +116,10 @@ ul.slick-dots li.slick-active button{
 }
 .categories-vertical-menu .bwp-vertical-navigation>div ul.menu .more-wrap:hover{
 	color: #000 !important;
+}
+.bwp-header .header-search-form .result-search-products .item-search .item-content a:hover,
+.bwp-header .header-search-form .result-search-products.loading:before {
+    color: #00b1ff !important;
 }
 
 /*Body*/
@@ -238,6 +242,26 @@ span.countdown-amount,
 .bwp-top-bar.top .content-topbar-bottom {
     background: rgb(236 236 236) !important;
 }
+.bwp-filter-ajax #bwp_form_filter_product .bwp-filter-price #bwp_slider_price .ui-slider-handle {
+    background: #00b1ff !important;
+    border-color: #00b1ff !important;
+}
+.bwp-filter-attribute .filter-attribute .filter_clear_all{
+	border-bottom: 1px solid #00b1ff !important;
+	color: #00b1ff !important;
+}
+.bwp-filter-attribute .filter-attribute span {
+    color: #000 !important;
+}
+.bwp-filter-attribute .filter-attribute span:before {
+    border: 1px solid #000 !important;
+}
+.products-list.grid .product-wapper .products-content .description ul li:before {
+    background: #00b1ff !important;
+}
+.bwp-sidebar>.widget ul:not(.social-link):not(.content-products):not(.product_list_widget) li:not(.recentcomments).current-cat, .bwp-sidebar>.widget ul:not(.social-link):not(.content-products):not(.product_list_widget) li:not(.recentcomments) a:not(.rsswidget).active, .bwp-sidebar>.widget ul:not(.social-link):not(.content-products):not(.product_list_widget) li:not(.recentcomments) a:not(.rsswidget):hover{
+	color: #00b1ff !important;
+}
 
 /*Shopping Cart*/
 .woocommerce-page-header ul li a {
@@ -256,11 +280,6 @@ span.countdown-amount,
 .cart_totals .wc-proceed-to-checkout>a.wc-forward:hover,
 .checkout #place_order:hover{
     background: #00b1ff !important;
-}
-span.menu-item-text {
-    font-weight: 700;
-    text-transform: none !important;
-    font-size: 15px;
 }
 
 /*Footer*/
@@ -297,6 +316,9 @@ span.menu-item-text {
     background: #00b1ff !important;
     color: #000 !important;
     border-color: #00b1ff !important;
+}
+.back-top {
+    background: transparent !important;
 }
 /*hide copyright section*/
 section.elementor-section.elementor-top-section.elementor-element.elementor-element-4d7c198 {
